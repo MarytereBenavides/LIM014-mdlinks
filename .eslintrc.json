@@ -12,7 +12,7 @@
         "ecmaVersion": 12
     },
     "rules": {
-      "indent": ["error", 2], // Identación a 2 espacios
+      // "indent": ["error", 2], // Identación a 2 espacios
       "linebreak-style": ["error", "windows"], // finales de línea para Windows
       // "quotes": ["error", "double"], // Uso de comillas dobles para strings
       "semi": ["error", "always"] // Punto y coma obligatorio
