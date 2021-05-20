@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-const pathRoute = 'pruebas';
+// const pathRoute = 'pruebas';
 
 // valida la ruta
 const isValidPath = (route) => fs.existsSync(route);
@@ -28,7 +28,7 @@ const readTheDirectory = function readDirectory(route) {
 const readFile = (route) => fs.readFileSync(route, 'utf-8');
 
 // eslint-disable-next-line no-console
-console.log(readTheDirectory(pathRoute));
+// console.log(readTheDirectory(pathRoute));
 
 module.exports = {
   isValidPath,
